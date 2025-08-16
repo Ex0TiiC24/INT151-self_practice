@@ -1,0 +1,13 @@
+    This function explains how to compare two object keys and value
+by using shallow method which only checks the values of each keys
+which the value could be numbers,string,etc.. but if this method found
+array, object or any data structure which contains memory addresses 
+instead of the real value(primitive data) it will failed to check
+
+    So this introduced me to a deep equality concept which covers
+any data structures because it using recusive method to only 
+extract the primitive data out of any data structure before
+comparing it 
+
+    This new way can truly check the equality of the objects 
+by using recursion.
