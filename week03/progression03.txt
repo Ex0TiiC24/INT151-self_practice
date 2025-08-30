@@ -1,0 +1,9 @@
+This is leetcode 26. Remove Duplicates from Sorted Array
+        Which given the function removeDuplicates which will get an array of sorted number
+    as an input and the function must return the number of the unique element in the array
+    and the array must be modified in-place only
+    So I use the two pointer approach that used i,k i is the unique checker and 
+    k is as a unique number writter
+    k started from index 1 , i also started from index 1 
+    so i have an if condition thats check both num[k] and num[i] is the same 
+    if not the pointer k moves forward and replace itself with num[i]

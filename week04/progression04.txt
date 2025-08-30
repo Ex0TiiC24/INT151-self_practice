@@ -1,0 +1,4 @@
+This is leetcode 26. 1446. Consecutive Characters
+        Given maxPower function that must return the number of the most Consecutive characters in the s string
+    I use counting frequency method which loop through the string and counting it's frequency on the go
+    if the current characters has more frequency than previous char I replaced it with current count
