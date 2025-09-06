@@ -1,0 +1,8 @@
+2723. Add Two Promises
+In this problem i've learned the how async function works 
+Aysnc function can wait for any Promises by using await before calling the Promises
+
+
+2621. Sleep
+In this problem i've learned that we can create our own promises that would resolve anything 
+after some time 
